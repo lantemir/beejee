@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,body{
+	background-color: #fff;height: 100%;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+section{
+	height: 100%;
+}
+.container{
+	width: 100%;
+}
+.cntr{
+	text-align: center;
+}
+.row{
+	width: 100%;
+	display: block;
+	clear: both;
+	float:none;
+}
+.clear{
+	clear:both;
+}
+.wrapper{
+	width: 98%;
+	max-width: 1000px;
+	margin:0 auto;
+}
+.pd30{
+	padding:30px;
+}
+.pd25{
+	padding:25px;
+}
+.pd20{
+	padding:20px;
+}
+.pd15{
+	padding:15px;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.height100{
+	height: 100%;
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6,
+.column-7,
+.column-8,
+.column-9,
+.column-10,
+.column-11,
+.column-12,
+{
+	width: 100%;
+	float:none;
+}
+
+@media screen and (min-width: 600px){
+	.column-tablet-1,
+	.column-tablet-2,
+	.column-tablet-3,
+	.column-tablet-4,
+	.column-tablet-5,
+	.column-tablet-6,
+	.column-tablet-7,
+	.column-tablet-8,
+	.column-tablet-9,
+	.column-tablet-10,
+	.column-tablet-11,
+	.column-tablet-12,
+	{
+		width: 50%;
+		float:left;
+	}
+}
+@media screen and (min-width: 1000px){
+	.column-1{width:8.33%; float:left;}
+	.column-2{width:16.66%; ;float:left;}
+	.column-3{width:25%; float:left;}
+	.column-4{width:33.33%;float:left;}
+	.column-5{width:41.66%;float:left;}
+	.column-6{width:50%;float:left;}
+	.column-7{width:58.33%;float:left;}
+	.column-8{width:66.66%;float:left;}
+	.column-9{width:75%;float:left;}
+	.column-10{width:83.33%;float:left;}
+	.column-11{width:91.66%;float:left;}
+	.column-12{width:100%;float:left;}
+	.pd30{padding:30px;}
+}
+
+
+
+
+.column-fixed-1{width:8.33%; float:left;}
+.column-fixed-2{width:16.66%; ;float:left;}
+.column-fixed-3{width:25%; float:left;}
+.column-fixed-4{width:33.33%;float:left;}
+.column-fixed-5{width:41.66%;float:left;}
+.column-fixed-6{width:50%;float:left;}
+.column-fixed-7{width:58.33%;float:left;}
+.column-fixed-8{width:66.66%;float:left;}
+.column-fixed-9{width:75%;float:left;}
+.column-fixed-10{width:83.33%;float:left;}
+.column-fixed-11{width:91.66%;float:left;}
+.column-fixed-12{width:100%;float:left;}
+.pd30{padding:30px;}
+
+
